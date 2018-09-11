@@ -3,10 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <title>Kitchen equipment store</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+ <div style="width: 500px; margin: auto">
     <h1> Меню магазина: </h1>
-    <ul>
+    <ul id="menu">
         <li> <a href="index.html"> Главная </a> </li>
         <li> <a href="catalog/catalog.html"> Каталог </a> </li>
         <li> <a href="contacts.html"> Контакты </a> </li>
@@ -16,10 +18,10 @@
     <h3> Форма обратной связи </h3>
     <p> Для связи с магазином пожалуйста заполните формулу ниже и мы обязательно вам ответим.</p>
     <form>
-        <p> Ваше Имя: <input title="name" type="text" placeholder="Ваше имя"> </p>
-        <p> Ваш e-mail: <input title="email" type="email" placeholder="E-mail"> </p>
+        <p> Ваше Имя: <input class="contact" title="name" type="text" placeholder="Ваше имя"> </p>
+        <p> Ваш e-mail: <input class="contact" title="email" type="email" placeholder="E-mail"> </p>
         <h3> Текст письма </h3>
-        <p><textarea title="message" rows="2" cols="80" name="text" placeholder="Текст сообщения"></textarea></p>
+        <p><textarea class="text" title="message" rows="2" cols="80" name="text" placeholder="Текст сообщения"></textarea></p>
         <input type="submit" value="Отправить"> <input type="reset" value="Отмена">
     </form>
 
@@ -28,5 +30,6 @@
     <iframe src="https://yandex.ru/map-widget/v1/-/CBBanUwNCC" width="800" height="300" frameborder="1" allowfullscreen="true"></iframe>
     <hr>
     <p> &#169; Все права защищены</p>
+     </div>
 </body>
 </html>
