@@ -1,9 +1,12 @@
 body {
-    background-color: #f8f8f8;
+    background-color: #f8f4da;
 }
+
 #menu{
     list-style-type: none;
+    float: right;
 }
+
 #menu a {
     color:mediumvioletred;
     font-size:18px;
@@ -11,13 +14,51 @@ body {
     font-style: normal;
     text-align: center;
 }
-.heading{
-    color: black;
-    font-size: 18px;
-    font-weight: 400;
-    background-color: #eaeaea ;
+
+#menu li:first-child {
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+#menu li:last-child {
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+#menu li:nth-child(n){
+    background-color: #86a9dc;
+}
+#menu li{
+    width: 200px;
+    height: 50px;
+    list-style-type:none;
+    border: 1px solid #000;
+    text-align: center;
 
 }
+
+#menu li:active a {
+    color: #5ad310;
+}
+#menu li:hover a{
+    color: #3fff28;
+}
+
+#menu li:hover {
+    background: url("img/arrow.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+
+#heading {
+    color: black;
+    height: 200px;
+    font-size: 18px;
+    font-weight: 400;
+    background: url("img/headline.jpeg") no-repeat;
+
+
+}
+
 .description{
     color: #707070;
     font-size: 14px;
@@ -41,10 +82,58 @@ body {
     width: 400px;
     height: 40px;
     color: #880f8b;
+    text-transform: capitalize;
 }
-.text{
-    color: #880f8b;
+
+.contact:focus {
+    color: aquamarine;
+    background: #86a9dc;
+
 }
+
 .image{
-    outline: 10px solid #7b8b3f;
+    outline: 10px solid #8b3a1b;
 }
+
+.image:hover{
+    outline: 0 solid #8b3a1b;
+}
+.description:first-letter{
+    font-size: 30px;
+    color: #a55cd2;
+    font-style:oblique;
+
+}
+table {
+    border: 1px;
+    width: 600px;
+    height: 300px;;
+}
+td {
+    border: 1px solid #000000;
+}
+
+#Conner{
+    width: 1000px;
+    margin: auto;
+}
+
+#main {
+
+}
+
+#footer {
+
+}
+#logo{
+    background: url("img/logo.png") no-repeat 100% 100%;
+    background-size: contain;
+    height: 170px;
+    width: 100px;
+    float: left;
+    margin-left: 20px;
+
+
+
+}
+
