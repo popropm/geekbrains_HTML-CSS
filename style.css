@@ -8,7 +8,7 @@ body {
 }
 
 #menu a {
-    color:mediumvioletred;
+    color: #249928;
     font-size:18px;
     font-weight: lighter;
     font-style: normal;
@@ -34,12 +34,11 @@ body {
     text-align: center;
 
 }
-
 #menu li:active a {
-    color: #5ad310;
+    color: #d38828;
 }
 #menu li:hover a{
-    color: #3fff28;
+    color: #ff9d2e;
 }
 
 #menu li:hover {
@@ -47,18 +46,13 @@ body {
     background-repeat: no-repeat;
     background-position: right;
 }
-
-
 #heading {
     color: black;
     height: 200px;
     font-size: 18px;
     font-weight: 400;
     background: url("img/headline.jpeg") no-repeat;
-
-
 }
-
 .description{
     color: #707070;
     font-size: 14px;
@@ -84,35 +78,35 @@ body {
     color: #880f8b;
     text-transform: capitalize;
 }
-
 .contact:focus {
-    color: aquamarine;
-    background: #86a9dc;
-
+    color: #ffa628;
+    background: #dcab8b;
 }
-
 .image{
-    outline: 10px solid #8b3a1b;
+    outline: 10px solid #24238b;
 }
 
 .image:hover{
-    outline: 0 solid #8b3a1b;
+    outline: 0 solid #24238b;
 }
 .description:first-letter{
     font-size: 30px;
     color: #a55cd2;
     font-style:oblique;
-
 }
 table {
     border: 1px;
-    width: 600px;
-    height: 300px;;
+    width: 400px;
+    height: 200px;
 }
 td {
     border: 1px solid #000000;
+    height: 50px;
+    width: 50px;
 }
-
+ .table tr:first-child{
+     height: 100px;
+ }
 #Conner{
     width: 1000px;
     margin: auto;
@@ -132,8 +126,12 @@ td {
     width: 100px;
     float: left;
     margin-left: 20px;
+}
 
-
-
+th {
+    background: #c6f5f0;
+}
+td {
+    background: #f2fcfb;
 }
 
